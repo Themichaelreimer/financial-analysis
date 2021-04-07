@@ -3,8 +3,7 @@ from Database import *
 import time
 import sys
 
-#API_KEY = 'Y7AE6OCZTOJOAH9I'  # Trial key
-API_KEY = '89VJWFAMXT7CV4OP'
+API_KEY = '' # Get a free or paid API key at https://www.alphavantage.co
 URL = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={}&apikey={}&outputsize={}&datatype=csv'
 
 # 500 requests per day, 5 per minute
